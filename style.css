@@ -1,0 +1,36 @@
+*{margin: 0;padding: 0; 
+ font-family: 'poppins', sans-serif}
+body{min-height: 100vh;
+    display: grid;
+    place-items: center;
+background: rgba(10,10,10,0.1)}
+.main{position: relative;
+    display: flex;align-items: center;
+flex-direction: column;
+min-width: 300px;
+padding: 15px 10px;
+box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.18);
+background: rgba(231, 16, 16, 0.05);
+border-radius: 10px}
+.display{
+    position: relative;
+    width: 80%;
+     height: 80px;
+margin-bottom: 10px}
+.display #result{font-size: 20}
+.buttons{margin-top: 20px;width: 100%}
+.buttons button
+{ 
+height: 60px;
+width: 60px;
+padding: 15px; border-radius: 50px; 
+background: rgb(53, 163, 203);
+border:none;outline: none;
+margin: 0 10px;
+cursor: pointer;font-size: 1.3em;
+box-shadow: inset 5px 5px 5px rgba(0,0,0,0.2), 
+inset -5px -5px 15px rgba(255,255,255,0.1), 5px 5px 15px rgba(0,0,0,0.3), -5px -5px 15px rgba(255,255,255,0.1)}
+.buttons button:hover{background: rgba(0,0,0,0.2)}
+#equalTo{width: 125px;background: #087837}
+#clear{background:rgb(191, 18, 18) }
+#delete_single_num{background-color:#e87553 ;}
